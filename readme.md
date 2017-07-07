@@ -20,6 +20,7 @@ The following instructions can be stored in a cell:
 * noop - Has no effect
 * write [instruction] [address] - Sets the cell at the given address to contain the given instruction
  * May not contain a write instruction.
+ * Attempting to write off the end of the memory space does *not* crash you, the memory space wraps. This is different from the way that the instruction pointer behaves.
 * store [value] [register] - Sets the given register to the given 12-bit integer
 
 ## Input
