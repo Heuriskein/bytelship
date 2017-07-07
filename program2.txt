@@ -1,0 +1,4 @@
+write (crash) [i]+[a]+4 
+write (crash) [i]+[a]+4
+store [a]+2 a
+store [i]-4 i
